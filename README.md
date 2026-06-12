@@ -1,4 +1,4 @@
-# Netflix Prize — Personalized Recommendation System
+# Netflix Prize: Personalized Recommendation System
 
 A recommendation engine built on the [Netflix Prize Dataset](https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data) that learns user preferences, predicts unseen ratings, and generates explained Top-10 recommendations.
 
@@ -8,7 +8,7 @@ Three models with a common `fit / predict / score_items` interface:
 
 | Model | Idea | Why it's here |
 |---|---|---|
-| **BiasBaseline** | μ + user bias + item bias | Honest anchor — surprisingly strong on this data |
+| **BiasBaseline** | μ + user bias + item bias | Honest anchor, surprisingly strong on this data |
 | **ItemCF** | Adjusted-cosine item-item kNN | Interpretable; powers "because you watched X" explanations |
 | **SVD** | Biased matrix factorization (FunkSVD, SGD) | The Netflix Prize workhorse; best accuracy |
 
@@ -60,4 +60,4 @@ Per-user temporal split (last 20% held out): 1,359,913 train / 336,027 test rati
 | Item-based CF | 0.8972 | 0.6940 | **0.0363** | **0.073** | **67.3%** | 5.1 s |
 | SVD (k=50) | **0.8627** | **0.6694** | 0.0196 | 0.044 | 15.7% | 34.5 s |
 
-Headline: the best rating predictor (SVD) is the worst ranker — full discussion in `report/Technical_Report.pdf`. Sample Top-10 recommendations with "because you rated X" explanations are in `results/sample_recommendations.json`.
+Headline: the best rating predictor (SVD) is the worst ranker. Full discussion in `report/Technical_Report.pdf`. Sample Top-10 recommendations with "because you rated X" explanations are in `results/sample_recommendations.json`.
