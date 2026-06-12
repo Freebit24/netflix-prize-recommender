@@ -1,0 +1,627 @@
+{
+  "heavy_rater": {
+    "user_id": 436122,
+    "n_train_ratings": 1336,
+    "profile": [
+      {
+        "title": "Clerks: First Cut (Not Theatrical Version)",
+        "year": "1994.0",
+        "rating": "5",
+        "date": "2004-09-30"
+      },
+      {
+        "title": "Star Wars: Episode V: The Empire Strikes Back",
+        "year": "1980.0",
+        "rating": "5",
+        "date": "2004-09-23"
+      },
+      {
+        "title": "Star Wars: Episode IV: A New Hope",
+        "year": "1977.0",
+        "rating": "5",
+        "date": "2004-09-23"
+      },
+      {
+        "title": "Monty Python's Flying Circus",
+        "year": "1969.0",
+        "rating": "5",
+        "date": "2004-05-26"
+      },
+      {
+        "title": "Monty Python: The Life of Python",
+        "year": "2000.0",
+        "rating": "5",
+        "date": "2004-05-22"
+      },
+      {
+        "title": "Magnum Force",
+        "year": "1973.0",
+        "rating": "5",
+        "date": "2004-05-13"
+      },
+      {
+        "title": "The Matrix: Revolutions",
+        "year": "2003.0",
+        "rating": "5",
+        "date": "2004-05-11"
+      },
+      {
+        "title": "The Simpsons: Season 1",
+        "year": "1989.0",
+        "rating": "5",
+        "date": "2004-05-11"
+      }
+    ],
+    "recommendations": [
+      {
+        "movie_id": "7569",
+        "pred_score": "4.27",
+        "year": "2004.0",
+        "title": "Dead Like Me: Season 2"
+      },
+      {
+        "movie_id": "14302",
+        "pred_score": "4.22",
+        "year": "2000.0",
+        "title": "The Sopranos: Season 2"
+      },
+      {
+        "movie_id": "11662",
+        "pred_score": "4.21",
+        "year": "2004.0",
+        "title": "The Sopranos: Season 5"
+      },
+      {
+        "movie_id": "7057",
+        "pred_score": "4.17",
+        "year": "2002.0",
+        "title": "Lord of the Rings: The Two Towers: Extended Edition"
+      },
+      {
+        "movie_id": "10643",
+        "pred_score": "4.17",
+        "year": "1992.0",
+        "title": "Seinfeld: Season 4"
+      },
+      {
+        "movie_id": "5103",
+        "pred_score": "4.17",
+        "year": "1993.0",
+        "title": "The Simpsons: Season 5"
+      },
+      {
+        "movie_id": "8116",
+        "pred_score": "4.17",
+        "year": "2002.0",
+        "title": "The Sopranos: Season 4"
+      },
+      {
+        "movie_id": "5760",
+        "pred_score": "4.14",
+        "year": "2001.0",
+        "title": "The Sopranos: Season 3"
+      },
+      {
+        "movie_id": "12834",
+        "pred_score": "4.13",
+        "year": "2001.0",
+        "title": "Family Guy: Vol. 2: Season 3"
+      },
+      {
+        "movie_id": "7230",
+        "pred_score": "4.13",
+        "year": "2001.0",
+        "title": "The Lord of the Rings: The Fellowship of the Ring: Extended Edition"
+      }
+    ],
+    "explanations": [
+      {
+        "movie_id": "7569",
+        "title": "Dead Like Me: Season 2",
+        "because": "The Silence of the Lambs (you rated it 4/5)"
+      },
+      {
+        "movie_id": "14302",
+        "title": "The Sopranos: Season 2",
+        "because": "The Godfather (you rated it 5/5); The Silence of the Lambs (you rated it 4/5)"
+      },
+      {
+        "movie_id": "11662",
+        "title": "The Sopranos: Season 5",
+        "because": "The Godfather (you rated it 5/5); Pulp Fiction (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7057",
+        "title": "Lord of the Rings: The Two Towers: Extended Edition",
+        "because": "Lord of the Rings: The Fellowship of the Ring (you rated it 4/5); Lord of the Rings: The Two Towers (you rated it 4/5)"
+      },
+      {
+        "movie_id": "10643",
+        "title": "Seinfeld: Season 4",
+        "because": "Star Wars: Episode V: The Empire Strikes Back (you rated it 5/5); The Godfather (you rated it 5/5)"
+      },
+      {
+        "movie_id": "5103",
+        "title": "The Simpsons: Season 5",
+        "because": "The Simpsons: Season 3 (you rated it 4/5); The Simpsons: Season 4 (you rated it 4/5); The Simpsons: Season 2 (you rated it 4/5)"
+      },
+      {
+        "movie_id": "8116",
+        "title": "The Sopranos: Season 4",
+        "because": "The Godfather (you rated it 5/5); The Silence of the Lambs (you rated it 4/5)"
+      },
+      {
+        "movie_id": "5760",
+        "title": "The Sopranos: Season 3",
+        "because": "The Godfather (you rated it 5/5); The Silence of the Lambs (you rated it 4/5)"
+      },
+      {
+        "movie_id": "12834",
+        "title": "Family Guy: Vol. 2: Season 3",
+        "because": "Family Guy: Vol. 1: Seasons 1-2 (you rated it 4/5); The Simpsons: Season 3 (you rated it 4/5); The Simpsons: Season 2 (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7230",
+        "title": "The Lord of the Rings: The Fellowship of the Ring: Extended Edition",
+        "because": "Lord of the Rings: The Fellowship of the Ring (you rated it 4/5); Lord of the Rings: The Two Towers (you rated it 4/5)"
+      }
+    ],
+    "heldout_relevant": [
+      "The Shawshank Redemption: Special Edition",
+      "Ed Wood",
+      "Clerks: Uncensored",
+      "Josie and the Pussycats",
+      "JFK: Special Edition",
+      "Fast Times at Ridgemont High",
+      "Rambo: First Blood: Ultimate Edition",
+      "Lost in Translation",
+      "Saturday Night Live: The Best of Will Ferrell 2",
+      "Fallen",
+      "Sugar & Spice",
+      "The Passion of the Christ",
+      "Happy Gilmore",
+      "Short Cuts",
+      "Christine: Special Edition",
+      "Sense and Sensibility",
+      "Used Cars",
+      "Simpsons Gone Wild",
+      "Luther",
+      "Family Guy: Vol. 2: Season 3",
+      "South Park: Season 4",
+      "Seinfeld: Seasons 1 & 2",
+      "Seinfeld: Season 3",
+      "Eternal Sunshine of the Spotless Mind",
+      "Shrek 2",
+      "Dr. Strangelove",
+      "24: Season 1",
+      "Garden State",
+      "Raging Bull",
+      "Collateral",
+      "Billy Madison",
+      "Evolution",
+      "The Lord of the Rings",
+      "Raw",
+      "Predator: Collector's Edition",
+      "Lord of the Rings: The Return of the King: Extended Edition",
+      "Lord of the Rings: The Two Towers: Extended Edition",
+      "The Lord of the Rings: The Fellowship of the Ring: Extended Edition",
+      "Purple Rain: Special Edition",
+      "Miracle",
+      "Family Guy: Freakin' Sweet Collection",
+      "Harold and Kumar Go to White Castle",
+      "Ray",
+      "Once Upon a Time in America",
+      "King Arthur",
+      "Sideways",
+      "Made",
+      "Spanglish",
+      "The Incredibles",
+      "House of Flying Daggers",
+      "Team America: World Police",
+      "Network",
+      "The Life Aquatic with Steve Zissou",
+      "Back to the Future Part III",
+      "Back to the Future Part II",
+      "Finding Neverland",
+      "Aladdin: Platinum Edition",
+      "The Day of the Jackal",
+      "Where Eagles Dare",
+      "Bonnie and Clyde",
+      "Sid & Nancy",
+      "GoodFellas: Special Edition",
+      "Apollo 13",
+      "The Eagle Has Landed",
+      "Scrubs: Season 1",
+      "King of New York: Special Edition (Widescreen)",
+      "Hero",
+      "The Aviator",
+      "Chinatown",
+      "Trainspotting: Collector's Edition",
+      "Million Dollar Baby",
+      "In Good Company",
+      "Kung Fu Hustle",
+      "Primal Fear",
+      "Sin City",
+      "Layer Cake",
+      "Toy Story",
+      "The Ten Commandments",
+      "The Hitchhiker's Guide to the Galaxy",
+      "Empire of the Sun",
+      "The Longest Yard",
+      "The Last Emperor",
+      "Lost: Season 1",
+      "A Christmas Story",
+      "Crash",
+      "The Simpsons: Season 6",
+      "Family Guy Presents: Stewie Griffin: The Untold Story",
+      "American Splendor",
+      "The Mask: Special Edition",
+      "Gladiator: Extended Edition",
+      "Rebel Without a Cause: Special Edition",
+      "The Blues Brothers: Extended Cut"
+    ]
+  },
+  "median_user": {
+    "user_id": 2215459,
+    "n_train_ratings": 89,
+    "profile": [
+      {
+        "title": "Like Water for Chocolate",
+        "year": "1992.0",
+        "rating": "5",
+        "date": "2005-04-22"
+      },
+      {
+        "title": "Something's Gotta Give",
+        "year": "2003.0",
+        "rating": "5",
+        "date": "2005-02-16"
+      },
+      {
+        "title": "Road to Perdition",
+        "year": "2002.0",
+        "rating": "5",
+        "date": "2005-02-16"
+      },
+      {
+        "title": "Cold Mountain",
+        "year": "2003.0",
+        "rating": "5",
+        "date": "2005-02-16"
+      },
+      {
+        "title": "In the Realm of the Senses",
+        "year": "1976.0",
+        "rating": "5",
+        "date": "2005-02-08"
+      },
+      {
+        "title": "Serpico",
+        "year": "1973.0",
+        "rating": "5",
+        "date": "2005-02-01"
+      },
+      {
+        "title": "Sanjuro",
+        "year": "1962.0",
+        "rating": "5",
+        "date": "2004-12-13"
+      },
+      {
+        "title": "Wag the Dog",
+        "year": "1997.0",
+        "rating": "5",
+        "date": "2004-12-11"
+      }
+    ],
+    "recommendations": [
+      {
+        "movie_id": "7749",
+        "pred_score": "4.61",
+        "year": "2005.0",
+        "title": "Curb Your Enthusiasm: Season 4"
+      },
+      {
+        "movie_id": "7742",
+        "pred_score": "4.48",
+        "year": "2003.0",
+        "title": "Six Feet Under: Season 3"
+      },
+      {
+        "movie_id": "5519",
+        "pred_score": "4.47",
+        "year": "1999.0",
+        "title": "The West Wing: Season 1"
+      },
+      {
+        "movie_id": "10080",
+        "pred_score": "4.46",
+        "year": "2001.0",
+        "title": "Six Feet Under: Season 2"
+      },
+      {
+        "movie_id": "571",
+        "pred_score": "4.44",
+        "year": "1999.0",
+        "title": "American Beauty"
+      },
+      {
+        "movie_id": "3290",
+        "pred_score": "4.43",
+        "year": "1974.0",
+        "title": "The Godfather, Part II"
+      },
+      {
+        "movie_id": "13556",
+        "pred_score": "4.42",
+        "year": "1999.0",
+        "title": "The West Wing: Season 2"
+      },
+      {
+        "movie_id": "8327",
+        "pred_score": "4.41",
+        "year": "1975.0",
+        "title": "One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "movie_id": "12293",
+        "pred_score": "4.41",
+        "year": "1972.0",
+        "title": "The Godfather"
+      },
+      {
+        "movie_id": "7430",
+        "pred_score": "4.41",
+        "year": "2001.0",
+        "title": "Six Feet Under: Season 1"
+      }
+    ],
+    "explanations": [
+      {
+        "movie_id": "7749",
+        "title": "Curb Your Enthusiasm: Season 4",
+        "because": "Forrest Gump (you rated it 5/5); Fahrenheit 9/11 (you rated it 5/5)"
+      },
+      {
+        "movie_id": "7742",
+        "title": "Six Feet Under: Season 3",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5); Rain Man (you rated it 4/5)"
+      },
+      {
+        "movie_id": "5519",
+        "title": "The West Wing: Season 1",
+        "because": "The Silence of the Lambs (you rated it 4/5); Shakespeare in Love (you rated it 4/5); Forrest Gump (you rated it 5/5)"
+      },
+      {
+        "movie_id": "10080",
+        "title": "Six Feet Under: Season 2",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5); Rain Man (you rated it 4/5)"
+      },
+      {
+        "movie_id": "571",
+        "title": "American Beauty",
+        "because": "The Silence of the Lambs (you rated it 4/5)"
+      },
+      {
+        "movie_id": "3290",
+        "title": "The Godfather, Part II",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5)"
+      },
+      {
+        "movie_id": "13556",
+        "title": "The West Wing: Season 2",
+        "because": "The Silence of the Lambs (you rated it 4/5); The Bourne Identity (you rated it 4/5)"
+      },
+      {
+        "movie_id": "8327",
+        "title": "One Flew Over the Cuckoo's Nest",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5); Rain Man (you rated it 4/5)"
+      },
+      {
+        "movie_id": "12293",
+        "title": "The Godfather",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5); Rain Man (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7430",
+        "title": "Six Feet Under: Season 1",
+        "because": "The Silence of the Lambs (you rated it 4/5); Forrest Gump (you rated it 5/5); Rain Man (you rated it 4/5)"
+      }
+    ],
+    "heldout_relevant": [
+      "Red Beard",
+      "The Barbarian Invasions",
+      "Ikiru",
+      "Sideways",
+      "Garden State",
+      "Closer",
+      "Amelie",
+      "Before Sunset",
+      "Das Boot",
+      "GoodFellas: Special Edition",
+      "Elizabeth",
+      "Marathon Man",
+      "The Insider",
+      "Restoration",
+      "Papillon",
+      "Adaptation",
+      "The Shining",
+      "Full Metal Jacket",
+      "Raging Bull"
+    ]
+  },
+  "light_user": {
+    "user_id": 774877,
+    "n_train_ratings": 25,
+    "profile": [
+      {
+        "title": "Something's Gotta Give",
+        "year": "2003.0",
+        "rating": "5",
+        "date": "2004-05-21"
+      },
+      {
+        "title": "Independence Day",
+        "year": "1996.0",
+        "rating": "5",
+        "date": "2004-05-21"
+      },
+      {
+        "title": "The American President",
+        "year": "1995.0",
+        "rating": "4",
+        "date": "2004-07-17"
+      },
+      {
+        "title": "Raiders of the Lost Ark",
+        "year": "1981.0",
+        "rating": "4",
+        "date": "2004-07-17"
+      },
+      {
+        "title": "Big Fish",
+        "year": "2003.0",
+        "rating": "4",
+        "date": "2004-07-17"
+      },
+      {
+        "title": "The Sixth Sense",
+        "year": "1999.0",
+        "rating": "4",
+        "date": "2004-05-21"
+      },
+      {
+        "title": "Pretty Woman",
+        "year": "1990.0",
+        "rating": "4",
+        "date": "2004-05-21"
+      },
+      {
+        "title": "Cheaper by the Dozen",
+        "year": "2003.0",
+        "rating": "4",
+        "date": "2004-05-21"
+      }
+    ],
+    "recommendations": [
+      {
+        "movie_id": "14302",
+        "pred_score": "4.58",
+        "year": "2000.0",
+        "title": "The Sopranos: Season 2"
+      },
+      {
+        "movie_id": "7569",
+        "pred_score": "4.57",
+        "year": "2004.0",
+        "title": "Dead Like Me: Season 2"
+      },
+      {
+        "movie_id": "7110",
+        "pred_score": "4.54",
+        "year": "2004.0",
+        "title": "The Shield: Season 3"
+      },
+      {
+        "movie_id": "3456",
+        "pred_score": "4.5",
+        "year": "2004.0",
+        "title": "Lost: Season 1"
+      },
+      {
+        "movie_id": "14550",
+        "pred_score": "4.5",
+        "year": "1994.0",
+        "title": "The Shawshank Redemption: Special Edition"
+      },
+      {
+        "movie_id": "8116",
+        "pred_score": "4.49",
+        "year": "2002.0",
+        "title": "The Sopranos: Season 4"
+      },
+      {
+        "movie_id": "11662",
+        "pred_score": "4.46",
+        "year": "2004.0",
+        "title": "The Sopranos: Season 5"
+      },
+      {
+        "movie_id": "7057",
+        "pred_score": "4.44",
+        "year": "2002.0",
+        "title": "Lord of the Rings: The Two Towers: Extended Edition"
+      },
+      {
+        "movie_id": "7664",
+        "pred_score": "4.44",
+        "year": "2000.0",
+        "title": "Gladiator: Extended Edition"
+      },
+      {
+        "movie_id": "3444",
+        "pred_score": "4.44",
+        "year": "2004.0",
+        "title": "Family Guy: Freakin' Sweet Collection"
+      }
+    ],
+    "explanations": [
+      {
+        "movie_id": "14302",
+        "title": "The Sopranos: Season 2",
+        "because": "Raiders of the Lost Ark (you rated it 4/5); The Sixth Sense (you rated it 4/5); Saving Private Ryan (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7569",
+        "title": "Dead Like Me: Season 2",
+        "because": "The Sixth Sense (you rated it 4/5); Pretty Woman (you rated it 4/5); Men in Black (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7110",
+        "title": "The Shield: Season 3",
+        "because": "The Sixth Sense (you rated it 4/5); Saving Private Ryan (you rated it 4/5); The Green Mile (you rated it 4/5)"
+      },
+      {
+        "movie_id": "3456",
+        "title": "Lost: Season 1",
+        "because": "Men in Black (you rated it 4/5); The Green Mile (you rated it 4/5); Raiders of the Lost Ark (you rated it 4/5)"
+      },
+      {
+        "movie_id": "14550",
+        "title": "The Shawshank Redemption: Special Edition",
+        "because": "The Sixth Sense (you rated it 4/5); Raiders of the Lost Ark (you rated it 4/5); The Green Mile (you rated it 4/5)"
+      },
+      {
+        "movie_id": "8116",
+        "title": "The Sopranos: Season 4",
+        "because": "Raiders of the Lost Ark (you rated it 4/5); The Sixth Sense (you rated it 4/5); Saving Private Ryan (you rated it 4/5)"
+      },
+      {
+        "movie_id": "11662",
+        "title": "The Sopranos: Season 5",
+        "because": "Raiders of the Lost Ark (you rated it 4/5); The Sixth Sense (you rated it 4/5); Saving Private Ryan (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7057",
+        "title": "Lord of the Rings: The Two Towers: Extended Edition",
+        "because": "Raiders of the Lost Ark (you rated it 4/5); The Sixth Sense (you rated it 4/5); Saving Private Ryan (you rated it 4/5)"
+      },
+      {
+        "movie_id": "7664",
+        "title": "Gladiator: Extended Edition",
+        "because": "Saving Private Ryan (you rated it 4/5); The Sixth Sense (you rated it 4/5); The Green Mile (you rated it 4/5)"
+      },
+      {
+        "movie_id": "3444",
+        "title": "Family Guy: Freakin' Sweet Collection",
+        "because": "Raiders of the Lost Ark (you rated it 4/5); Saving Private Ryan (you rated it 4/5); The Sixth Sense (you rated it 4/5)"
+      }
+    ],
+    "heldout_relevant": [
+      "Schindler's List",
+      "Panic Room",
+      "Indiana Jones and the Last Crusade",
+      "Harry Potter and the Sorcerer's Stone"
+    ]
+  }
+}

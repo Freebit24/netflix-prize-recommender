@@ -1,0 +1,7 @@
+data/
+results/models.pkl
+results/eda_stats.json
+results/eda_stats_full.json
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

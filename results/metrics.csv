@@ -1,0 +1,4 @@
+model,fit_seconds,predict_seconds,RMSE,MAE,rank_seconds,MAP@10,Precision@10,Recall@10,NDCG@10,Coverage,n_eval_users
+BiasBaseline,0.1,0.0,0.9165,0.7168,3.7,0.0306,0.0495,0.0165,0.058,0.0775,2000
+SVD,34.5,1.1,0.8627,0.6694,3.5,0.0196,0.0439,0.0164,0.0444,0.1565,2000
+ItemCF,5.1,4.9,0.8972,0.694,53.0,0.0363,0.0663,0.0242,0.0734,0.6725,2000
